@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>271</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>BiblioSystem</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="agregarLibro">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>130</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar nuevo libro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="editarLibro">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Editar libro por ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eliminarLibro">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>270</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Eliminar libro por ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buscarLibro">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>340</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salir">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>410</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
